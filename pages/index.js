@@ -7,6 +7,9 @@ import SearchBar from "../components/search_bar";
 export default function Home() {
     return (
         <>
+            <Head>
+                <title>Sudarshan</title>
+            </Head>
             <Navbar/>
 
             <div className="h-[26rem] w-full bg-primary text-white pt-24">
